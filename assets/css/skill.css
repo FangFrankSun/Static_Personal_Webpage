@@ -402,3 +402,149 @@
     transform: rotate(162deg);
   }
 } */
+
+
+
+
+
+
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  flex-basis: 50%;
+  padding: 0 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  margin: 0 0 10px;
+}
+
+
+
+.skill-bar.Rhinoceros {
+  background-color: rgba(23, 157, 210, 0.95);
+}
+
+.skill-bar.SketchUp {
+  background-color: rgba(23, 157, 210,  0.8);
+}
+
+.skill-bar.AutoCAD {
+  background-color: rgba(23, 157, 210,  0.65);
+}
+
+.skill-bar.Grasshopper {
+  background-color: rgba(23, 157, 210, 0.95);
+}
+
+.skill-bar.Revit {
+  background-color: rgba(23, 157, 210, 0.95);
+}
+
+.skill-bar.Photoshop {
+  background-color: rgba(23, 157, 210,  0.8);
+}
+
+.skill-bar.Illustrator {
+  background-color: rgba(23, 157, 210,  0.65);
+}
+
+.skill-bar.InDesign {
+  background-color: rgba(23, 157, 210,  0.65);
+}
+
+
+
+
+
+
+
+
+.skill-bar.Python {
+  background-color: rgba(37, 228, 238, 0.95);
+}
+
+.skill-bar.Java {
+  background-color: rgba(37, 228, 238, 0.9);
+}
+
+.skill-bar.SQL {
+  background-color: rgba(37, 228, 238, 0.85);
+}
+
+
+.skill-bar.HTML {
+  background-color: rgba(37, 228, 238, 0.95);
+}
+
+.skill-bar.C {
+  background-color: rgba(37, 228, 238, 0.9);
+}
+
+.skill-bar.Go {
+  background-color: rgba(37, 228, 238, 0.85);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skill-level {
+  height: 100%;
+  width: 0;
+  position: relative;
+}
+
+.skill-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.skill-bar {
+  height: 20px;
+  border-radius: 5px;
+  overflow: show;
+}
+
+
+.skill-bar {
+  position: relative;
+}
+
+.skill-percent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
