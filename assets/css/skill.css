@@ -431,35 +431,46 @@
 
 
 .skill-bar.Rhinoceros {
-  background-color: rgba(23, 157, 210, 0.95);
+  background-color: rgba(23, 157, 210, 1.00);
 }
 
 .skill-bar.SketchUp {
-  background-color: rgba(23, 157, 210,  0.8);
+  background-color: rgba(23, 157, 210,  1.00);
 }
 
 .skill-bar.AutoCAD {
-  background-color: rgba(23, 157, 210,  0.65);
+  background-color: rgba(23, 157, 210,  0.85);
 }
 
 .skill-bar.Grasshopper {
-  background-color: rgba(23, 157, 210, 0.95);
-}
-
-.skill-bar.Revit {
-  background-color: rgba(23, 157, 210, 0.95);
-}
-
-.skill-bar.Photoshop {
-  background-color: rgba(23, 157, 210,  0.8);
-}
-
-.skill-bar.Illustrator {
-  background-color: rgba(23, 157, 210,  0.65);
+  background-color: rgba(23, 157, 210, 0.85);
 }
 
 .skill-bar.InDesign {
-  background-color: rgba(23, 157, 210,  0.65);
+  background-color: rgba(23, 157, 210, 0.7);
+}
+
+.skill-bar.Photoshop {
+  background-color: rgba(23, 157, 210,  0.7);
+}
+
+.skill-bar.Illustrator {
+  background-color: rgba(23, 157, 210,  0.7);
+}
+
+.skill-bar.Revit {
+  background-color: rgba(23, 157, 210,  0.5);
+}
+
+
+.skill-bar.ArcGIS {
+  background-color: rgba(23, 157, 210,  0.5);
+}
+
+
+
+.skill-bar.Revit {
+  background-color: rgba(23, 157, 210,  0.5);
 }
 
 
@@ -470,31 +481,37 @@
 
 
 .skill-bar.Python {
-  background-color: rgba(37, 228, 238, 0.95);
+  background-color: rgba(37, 228, 238, 1);
 }
 
 .skill-bar.Java {
-  background-color: rgba(37, 228, 238, 0.9);
+  background-color: rgba(37, 228, 238, 1);
 }
-
-.skill-bar.SQL {
-  background-color: rgba(37, 228, 238, 0.85);
-}
-
 
 .skill-bar.HTML {
-  background-color: rgba(37, 228, 238, 0.95);
+  background-color: rgba(37, 228, 238, 0.8);
+}
+
+
+.skill-bar.JavaScript {
+  background-color: rgba(37, 228, 238, 0.8);
 }
 
 .skill-bar.C {
-  background-color: rgba(37, 228, 238, 0.9);
+  background-color: rgba(37, 228, 238, 0.7);
+}
+
+.skill-bar.Assembly {
+  background-color: rgba(37, 228, 238, 0.7);
+}
+
+.skill-bar.SQL {
+  background-color: rgba(37, 228, 238, 0.7);
 }
 
 .skill-bar.Go {
-  background-color: rgba(37, 228, 238, 0.85);
+  background-color: rgba(37, 228, 238, 0.55);
 }
-
-
 
 
 
@@ -540,6 +557,7 @@
 }
 
 .skill-percent {
+  height: 50px;
   position: absolute;
   top: 0;
   right: 0;
