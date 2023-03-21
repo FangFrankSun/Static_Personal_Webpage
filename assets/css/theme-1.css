@@ -11636,7 +11636,7 @@ fieldset:disabled .btn {
  * DevCard - Bootstrap 5 vCard and Portfolio Theme For Developers
  * Version: 2.0
  * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media Ltd.
+ * Copyright: Fang (Frank) Sun Ltd.
  * Website: http://themes.3rdwavemedia.com/
  * Twitter: @3rdwave_themes
 */
@@ -12367,15 +12367,17 @@ textarea.form-control {
     font-size: 1.125rem
 }
 
-.project-card .card-subtitle {
-    font-size: 0.8rem
-}
+
 
 
 .project-card .card-text {
     font-size: 0.875rem
 }
 
+
+.project-card .card-subtitle {
+    font-size: 0.8rem
+}
 
 .project-card .card-textline {
     line-height: 0.1
