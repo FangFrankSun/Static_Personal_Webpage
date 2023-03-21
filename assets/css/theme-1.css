@@ -12366,12 +12366,22 @@ textarea.form-control {
     font-size: 1.125rem
 }
 
+.project-card .card-subtitle {
+    font-size: 0.8rem
+}
+
+
 .project-card .card-text {
     font-size: 0.875rem
 }
 
+
+
+
+
+
 .project-card .card-img-holder {
-    max-height: 200px;
+    max-height: 335px;
     overflow: hidden;
     vertical-align: middle
 }
