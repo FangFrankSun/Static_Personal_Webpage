@@ -12377,6 +12377,17 @@ textarea.form-control {
     transition: all 0.4s ease-in-out
 }
 
+
+.project-card .card-subtitle {
+    font-size: 0.8rem
+}
+
+.project-card .card-textline {
+    line-height: 0.1
+  
+}
+
+
 @media (prefers-reduced-motion: reduce) {
     .project-card .link-mask {
         transition: none

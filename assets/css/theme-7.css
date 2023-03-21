@@ -12396,6 +12396,18 @@ textarea.form-control {
     display: block
 }
 
+
+.project-card .card-subtitle {
+    font-size: 0.8rem
+}
+
+.project-card .card-textline {
+    line-height: 0.1
+  
+}
+
+
+
 .project-card .link-mask-text {
     position: absolute;
     left: 0;
